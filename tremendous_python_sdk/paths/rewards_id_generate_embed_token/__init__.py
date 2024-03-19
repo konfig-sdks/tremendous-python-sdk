@@ -1,0 +1,7 @@
+# do not import all endpoints into this module because that uses a lot of memory and stack frames
+# if you need the ability to import all endpoints from this module, import them with
+# from tremendous_python_sdk.paths.rewards_id_generate_embed_token import Api
+
+from tremendous_python_sdk.paths import PathValues
+
+path = PathValues.REWARDS_ID_GENERATE_EMBED_TOKEN
